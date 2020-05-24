@@ -1,0 +1,49 @@
+body, html{
+    height: 210vh;
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.navbar {
+    background-color: transparent;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    font-style: italic;
+    font-weight: bold;
+}
+.navbar img {
+    width: 30px;
+}
+.top-nav-collapse {
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: none;
+}
+.navbar-nav {
+    margin-top:10px;
+} 
+.container-card {
+    padding: 5px;
+    height: 600px;
+}
+.row-container {
+    height: auto;
+}
+.control-arrow {
+    font-size: 30px;
+    color: black;
+}
+.navbar.navbar-dark.top-nav-collapse .navbar-nav .nav-item .nav-link, .navbar.navbar-dark.top-nav-collapse .navbar-brand{
+    color: black;
+}
+.carousel-indicators li{
+    background-color: yellow;
+    border: 1px solid blue;
+}
+.carousel-caption h3 {
+    color: darkblue;
+}
+.carousel-caption p {
+    color: darkblue;
+}
