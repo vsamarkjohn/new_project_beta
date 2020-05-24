@@ -47,3 +47,67 @@ body, html{
 .carousel-caption p {
     color: darkblue;
 }
+
+.section-karten {
+    width: 100%;
+    height: 100vh;
+}
+.debugElement {
+    display: block;
+    background-color: yellow;
+    border: 2px solid black;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+/* Start of Changing card */
+/* size of image */
+.card-img, .card-img-top {
+    height: 250px;
+    padding: 15px;
+}
+.cardverandering {
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    object-position: 50% 50%;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.cardShowing {
+    opacity: 1;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    object-position: 50% 50%;
+}
+/* Start of Changing card */
+
+.card{
+    margin: 2px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.container-sign-up {
+    display: inline;
+}
+#intro-carousel, .carousel-inner img {
+    width: 100vw;
+    height: 100vh;
+}
+.carousel .carousel-indicators li {
+    width: 5px;
+    height: 5px;
+    border-radius: 0;
+    border: 1px solid blue;
+}
+.dropdown-container {
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(0deg, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+}
+footer.page-footer a {
+    color: black;
+}
